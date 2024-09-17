@@ -69,8 +69,16 @@ public class App
                 if (B != 0) {
                     A = A / B;
                     System.out.println("A = A / B: " + A);
-                }  
+                } else {
+                    // Print error if dividing by 0
+                    System.out.println("Error: Division by zero is not allowed.");
+                }   
 
+            } else if (input.equals("c")) {
+                // Clears the values of A and B
+                A = 0;
+                B = 0;
+                System.out.println("Values have been cleared. A = 0, B = 0");    
 
             }
         }
