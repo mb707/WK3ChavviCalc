@@ -63,7 +63,14 @@ public class App
                 // Multiply A by B
                 A = A * B;
                 System.out.println("A = A * B: " + A);
-                
+
+            } else if (input.equals("/")) {
+                // Divide A by B, but check if B is 0
+                if (B != 0) {
+                    A = A / B;
+                    System.out.println("A = A / B: " + A);
+                }  
+
 
             }
         }
