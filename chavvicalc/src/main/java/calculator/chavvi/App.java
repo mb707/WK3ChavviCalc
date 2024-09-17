@@ -59,9 +59,12 @@ public class App
                 A = A - B;
                 System.out.println("A = A - B: " + A);
                 
-            
+            } else if (input.equals("*")) {
+                // Multiply A by B
+                A = A * B;
+                System.out.println("A = A * B: " + A);
                 
-                
+
             }
         }
     }
