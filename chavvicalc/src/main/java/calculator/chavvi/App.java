@@ -48,6 +48,13 @@ public class App
                     // Error handling for invalid input
                     System.out.println("That is not a valid number for B.");
                 }
+
+            } else if (input.equals("+")) {
+                // Add B to A
+                A = A + B;
+                System.out.println("A = A + B: " + A);
+
+                
             }
         }
     }
