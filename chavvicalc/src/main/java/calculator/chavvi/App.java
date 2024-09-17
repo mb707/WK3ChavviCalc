@@ -20,8 +20,8 @@ public class App
 
         Scanner scanner = new Scanner(System.in);
 
-        float a = 0;
-        float b = 0;
+        float A = 0;
+        float B = 0;
         String input;
 
         System.out.println("Welcome to Chavvi's Calculator");
@@ -33,7 +33,12 @@ public class App
 
             if (input.equals("a")){
                 System.out.println("Please enter a number for A: ");
-                
+                try {
+                    A = Float.parseFloat(scanner.next());
+                } catch (NumberFormatException e) {
+                    System.out.println("Invalid number input for A.");
+                }
+                break;
             }
         }
     }
