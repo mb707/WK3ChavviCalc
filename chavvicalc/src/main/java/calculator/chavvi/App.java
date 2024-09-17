@@ -54,6 +54,13 @@ public class App
                 A = A + B;
                 System.out.println("A = A + B: " + A);
 
+            } else if (input.equals("-")) {
+                // Subtract B from A
+                A = A - B;
+                System.out.println("A = A - B: " + A);
+                
+            
+                
                 
             }
         }
