@@ -38,7 +38,16 @@ public class App
                 } catch (NumberFormatException e) {
                     System.out.println("Invalid number input for A.");
                 }
-                break;
+
+            } else if (input.equals("b")) {
+                // Ask the user to enter a value for B
+                System.out.print("Enter a number for B: ");
+                try {
+                    B = Float.parseFloat(scanner.next());  // Convert input to a number
+                } catch (NumberFormatException e) {
+                    // Error handling for invalid input
+                    System.out.println("That is not a valid number for B.");
+                }
             }
         }
     }
