@@ -33,8 +33,8 @@ public class App
         System.out.println("----------------------------------------");
         System.out.println("Commands:");
         System.out.println("----------------------------------------");
-        System.out.println("a - Enter a number for A");
-        System.out.println("b - Enter a number for B");
+        System.out.println("a - Enter a value for A");
+        System.out.println("b - Enter a value for B");
         System.out.println("----------------------------------------");
         System.out.println("+ - Add B to A");
         System.out.println("- - Subtract B from A");
