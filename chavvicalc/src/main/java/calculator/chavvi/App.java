@@ -26,8 +26,9 @@ public class App
 
         System.out.println("----------------------------------------");
         System.out.println("Welcome to Chavvi's Calculator");
+        System.out.printf("A = %.3f        B = %.3f\n", A, B);
         System.out.println("----------------------------------------");
-        System.out.println("Please only use one of these commands ");
+        System.out.println("*Please only use one of these commands* ");
         System.out.println("----------------------------------------");
         System.out.println("a, b, +, -, *, /, c, q");
         System.out.println("----------------------------------------");
@@ -100,6 +101,11 @@ public class App
             } else if (input.equals("q")) {
                 // Quit the program
                 System.out.println("Goodbye!");
+                break;  // Exit the loop
+
+            } else if (input.equals("no")) {
+                // Quit the program
+                System.out.println("Have it your way!");
                 break;  // Exit the loop
 
             } else {
