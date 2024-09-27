@@ -97,6 +97,10 @@ public class App
                 B = 0;
                 System.out.println("Values have been cleared. A = 0, B = 0");    
 
+            } else if (input.equals("q")) {
+                // Quit the program
+                System.out.println("Goodbye!");
+                break;  // Exit the loop
             }
         }
     }
