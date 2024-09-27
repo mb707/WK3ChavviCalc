@@ -101,6 +101,11 @@ public class App
                 // Quit the program
                 System.out.println("Goodbye!");
                 break;  // Exit the loop
+
+            } else {
+                // Print error message for invalid commands
+                System.out.println("Invalid command. Please enter a valid command.");
+            
             }
         }
     }
