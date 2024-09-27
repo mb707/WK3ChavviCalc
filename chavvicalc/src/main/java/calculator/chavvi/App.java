@@ -24,18 +24,26 @@ public class App
         float B = 0;
         String input;
 
+        System.out.println("----------------------------------------");
         System.out.println("Welcome to Chavvi's Calculator");
+        System.out.println("----------------------------------------");
         System.out.println("Please only use one of these commands a, b, +, -, *, /, c, q");
-        System.out.println("Welcome to the Simple Calculator!\n");
+        System.out.println("----------------------------------------");
+        System.out.println("Welcome to my Simple Calculator!\n");
+        System.out.println("----------------------------------------");
         System.out.println("Commands:");
+        System.out.println("----------------------------------------");
         System.out.println("a - Enter a number for A");
         System.out.println("b - Enter a number for B");
+        System.out.println("----------------------------------------");
         System.out.println("+ - Add B to A");
         System.out.println("- - Subtract B from A");
         System.out.println("* - Multiply A by B");
         System.out.println("/ - Divide A by B");
         System.out.println("c - Clear A and B");
+        System.out.println("----------------------------------------");
         System.out.println("q - Quit the calculator\n");
+        System.out.println("----------------------------------------");
         while (true) { 
             System.out.println("Enter a command: ");
             input = scanner.next();
